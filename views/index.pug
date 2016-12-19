@@ -1,0 +1,8 @@
+html
+	head
+		title=title
+	body
+		h4='File upload'
+		form(action='./upload', method='post', enctype='multipart/form-data')
+			input(type='file', name='testFile')
+			input(type='submit', value='Submit')
